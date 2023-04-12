@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    position: relative;
+}
+
+.container{
+    width: 50%;
+    min-height: calc(100vh/2);
+    background-color: whitesmoke;
+    margin: 0 auto;
+    position: relative;
+}
+
+.create-list-btn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-decoration: none;
+    background-color: teal;
+    padding: .4em;
+    color: white;
+}
+
+.create-list-btn:hover{
+    transform: scale(1.1);
+}
+
+.list-area{
+    padding-top: 40px;
+}
+
+.list-area h3{
+    padding-left: 10px;
+}
+
+.create-item-dialog{
+    display: none;
+    position: absolute;
+    min-height: 400px;
+    background-color: rgba(0, 0, 0, .9);
+    top: 35px;
+    right: 350px;
+    left: 350px;
+}
+
+.close-dialog{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.form-area{
+    padding-top: 45px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.form-area h3{
+    color: white;
+}
+
+.form, .form-group{
+    width: 100%;
+}
+
+.form-group{
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+    color: white;
+}
+
+.form-control{
+    width: 90%;
+    height: 25px;
+}
+
+.btn{
+    padding: .2em;
+}
+
+.btn-primary{
+    background-color: teal;
+}
+
+.btn-danger{
+    background-color: red;
+    color: white;
+}
+
+
+.list-items-content{
+    margin-top: 20px;
+}
+
+td{
+    padding: 5px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    padding: 0 2rem ;
+}
+
+.det-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+ion-icon {
+    font-size: 30px;
+    color: red;
+  }
+
+  .input-result{
+    border: none;
+    background: rgb(50, 49, 49);
+    color: white;
+    padding: 2%;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+
+  .update-controller{
+    display: none;
+    /* position: absolute;
+    left: 87%;
+    bottom: 55%; */
+
+  }
+
+  .input-controller{
+    background-color: rgb(195, 191, 191);
+    width: 25vw;
+    padding: 1%;
+    border-radius: 5px;
+  }
+
+  .editBtn{
+    text-decoration: none;
+    color: blue;
+    font-size: large;
+    font-weight: bolder;
+  }
+
+  .saveBtn{
+    text-decoration: none;
+    color: green;
+    font-size: large;
+    font-weight: bolder;
+  }
+  
